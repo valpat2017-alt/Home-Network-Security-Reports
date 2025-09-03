@@ -27,13 +27,13 @@ My first project as a network administrator, I did security scan on my home netw
    - Ran `nmap -sn 192.168.1.0/24` to discover active devices on the home network.
 
 2. **Service Detection:**  
-   - Used `nmap -sV <IP>` to identify open ports and running services on each device.
+   - Used `nmap -sV [IP]` to identify open ports and running services on each device.
 
 3. **OS Fingerprinting:**  
-   - Used `nmap -O <IP>` to detect the operating system where possible.
+   - Used `nmap -O [IP]` to detect the operating system where possible.
 
 4. **Aggressive Scan:**  
-   - Applied `nmap -A <IP>` to combine service detection, OS detection, and traceroute.
+   - Applied `nmap -A [IP]` to combine service detection, OS detection, and traceroute.
 
 5. **Documentation:**  
    - Recorded all results, analyzed open ports, and suggested mitigation strategies.
