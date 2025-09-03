@@ -17,7 +17,7 @@ My first project as a network administrator, I did security scan on my home netw
 |------------------|---------------|-------------|-----------------------------------|
 | Home Router      | 192.168.1.1   | Router      | 98:A9:42:28:96:23                 |
 | Infinix HOT 10i  | 192.168.1.195 | Smartphone  | 6E:40:D8:47:E8:AC                  |
-| Desktop PC       | 192.168.1.137 | PC          | Not scanned for this example       |
+| Desktop PC       | 192.168.1.137 | PC          | Not scanned       |
 
 ---
 
