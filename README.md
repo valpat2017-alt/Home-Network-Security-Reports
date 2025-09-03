@@ -44,3 +44,41 @@ My first project as a network administrator, I did security scan on my home netw
 
 ### 1. Home Router (192.168.1.1)
 **Open Ports & Services:**
+
+**Operating System:** Linux 3.2 – 3.16  
+**Observations:**  
+- Router exposed DNS, HTTP, HTTPS, and SIP ports to the internal network.  
+- Port 5060 (SIP) may be vulnerable if unused.  
+**Next Steps / Recommendations:**  
+- Disable SIP (5060) if not using VoIP.  
+- Ensure router firmware is updated.  
+- Use a strong admin password for router management.
+
+---
+
+### 2. Smartphone (Infinix HOT 10i, 192.168.1.195)
+**Open Ports & Services:** None (all 1000 scanned ports closed)  
+**Observations:**  
+- Device is not exposing any inbound services on the local network.  
+- Android default security is effectively blocking external scans.  
+**Next Steps / Recommendations:**  
+- Periodically review app permissions for outbound connections.  
+- Run mobile antivirus/security scans to ensure no malicious apps are present.
+
+---
+
+## Skills Demonstrated
+- Network scanning and discovery using **Nmap**  
+- Service and version detection on devices  
+- OS fingerprinting and basic network profiling  
+- Identifying potential vulnerabilities and open ports  
+- Writing professional security assessment reports
+
+---
+
+## Conclusion
+This project demonstrates foundational **network security skills** applied to real devices:  
+- Router analysis revealed actionable security improvements.  
+- Mobile device analysis confirmed strong default protection.  
+- Provides a practical **portfolio example** showing capability in scanning, analyzing, and recommending security improvements.
+
